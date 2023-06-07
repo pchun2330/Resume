@@ -1,0 +1,65 @@
+/*about me*/
+.basic{
+	margin: 20px;
+	padding:20px;
+	display: flex;
+	position: relative;
+	height:600px;
+	margin-bottom: 0;
+}
+.data{
+	width:50%;
+	color: #88789A;
+	margin-left:100px;
+	padding: 20px;
+	font-size: 15px;
+	letter-spacing: 3px;
+	line-height:30px;
+	text-align: justify;
+	text-indent: 50px;
+}
+.data h2{
+	text-align: center;
+	font-size: 30px;
+	background-color: #88789A;
+	border-radius: 10px;
+	color:white;
+	padding:10px;
+	margin-top: 0;
+}
+.data a{
+	color:#4B3069;
+	font-weight: bold;
+}
+.data a:hover{
+	color: #90CAE6;
+}
+
+.image{
+	width:40%;
+	margin-left: 10px;
+	text-align: left;
+}
+.image img{
+	min-width:30%;
+	max-width:50%;
+	border-top-right-radius: 20px;
+	filter: brightness(0.7);
+}
+.image img:hover{
+	filter: brightness(1);
+}
+
+.basic .loader {
+	position: absolute;
+	bottom: 20%;
+  	right: 5%;
+  	transform: translateX(-50%);
+	border: 16px solid #f3f3f3;
+	border-radius: 50%;
+	border-color: #88789A;
+	width: 200px;
+	height: 200px;
+	z-index: -1;
+	transition: bottom 3s ease;
+}

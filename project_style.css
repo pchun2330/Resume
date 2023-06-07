@@ -1,0 +1,167 @@
+/*project*/
+.project{
+	height:550;
+	margin-bottom: 100px;
+}
+.work{
+	display:flex;
+	width:100%;
+	font-size: 20px;
+	margin-bottom: 60px;
+	justify-content: space-between;
+}
+.project1,.project2,.project3,.project4{
+	width:33%;
+	height:400px;
+	padding:5px;
+	margin-right: 10px;
+	perspective: 1000px;
+}
+.flip-card-inner {
+	position: relative;
+	width: 98%;
+	height: 450px;
+	text-align: center;
+	transition: transform 1s;
+	transform-style: preserve-3d;
+}
+.imgbox{
+	margin:0 10px;
+	margin-top: 5px;
+}
+.imgbox img{
+	border-radius: 30px;
+	width: 100%;
+}
+.flip-card-front p{
+	font-size: 15px;
+	text-align: left;
+	margin-left: 5px;
+	text-indent: 50px;
+	margin-top: 20px;
+}
+
+.chip{
+	height:50px;
+	margin-top: auto;
+	margin-bottom: 5px;
+	width:100%;
+	text-align: left;
+	margin-left:50px;
+}
+.chip-item{
+	display:inline;
+	padding: 10px;
+	font-size: 16px;
+	line-height: 40px;
+	border-radius: 25px;
+	background-color: #f1f1f1;
+}
+.card5 .chip-item{
+	padding: 5px;
+	margin-bottom: 3px;
+}
+.card5 .chip{
+	margin-top: auto;
+	margin-bottom: 30px;
+	margin-left:10px;
+}
+
+.project1:hover .flip-card-inner,.project3:hover .flip-card-inner{
+	transform: rotateY(180deg);
+}
+.project2:hover .flip-card-inner{
+	transform: rotateX(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	border-radius: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.flip-card-back {
+	color: white;
+	transform: rotateY(180deg);
+	border-radius: 10px;
+}
+.project2 .flip-card-back {
+	transform: rotateX(180deg);
+}
+.flip-card-back a {
+	color: white;
+}
+
+.card1{
+	border:5px solid #88789A;
+	color:#42306D;
+}
+.card1-back{
+	background-color: rgba(66, 48, 109, 0.7);
+}
+.card1-back a{
+	text-decoration: none;
+}
+
+
+.card2{
+	border:5px solid #90CAE6;
+	color:#8CB7C0;
+}
+.card2 h3{
+	color:#90CAE6;
+}			
+.card2-back{
+	background-color: rgba(140, 183, 192, 0.7);
+}
+
+.card3{
+	border:5px solid #8CA76B;
+	color:#485B2F;
+}
+.card3 h3{
+	color:#8CA76B;
+}
+.card3-back{
+	background-color: rgba(72, 92, 47, 0.7);
+}
+
+.card4{
+	border:5px solid #955757;
+	color:#351717;
+}
+.card4 h3{
+	color:#351717;
+}
+.card4-back{
+	background-color: rgba(149, 87, 87, 0.7);
+}
+
+.card5{
+	border:5px solid #BBBAB9;
+	color:#91908E;
+}
+.card5 h3{
+	color:#91908E;
+}
+.card5-back{
+	background-color: rgba(145, 145, 145, 0.7);
+}
+
+.card6{
+	border:5px solid rgba(0, 0, 0, 0.7);
+	color:#000;
+}
+.card6 h3{
+	color:#000;
+}
+.card6-back{
+	background-color: rgba(0, 0, 0, 0.7);
+}

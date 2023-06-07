@@ -1,0 +1,67 @@
+
+/*skill*/
+.skill{
+	text-align: center;
+	height:700px;
+}
+.skill h3{
+	margin-top: -10%;
+	margin-bottom: 5px;
+}
+.skill .container{
+	font-size: 20px;
+	width:70%;
+	margin: 0 auto;
+	border-radius: 10px;
+	border:2px dotted gray;
+	padding:10px;
+}
+.container-fuild{
+	display: flex;
+	align-items: center;
+}
+.container-fuild p{
+	width:300px;
+}
+.skills{
+	width: 100%;
+	background-color: #ddd;
+	color:white;
+	text-align: right;
+}
+.html{
+	width: 95%;
+	background-color: #04AA6D;
+}
+.js{
+	width: 55%;
+	background-color: #2196F3;
+}
+.bt5{
+	width: 60%;
+	background-color: #f44336;
+}
+.rwd{
+	width: 30%;
+	background-color: #D4D2D2;
+}
+.jq{
+	width: 30%;
+	background-color: #6D5B30;
+}
+.AJAX{
+	width: 20%;
+	background-color: #F97513;
+}
+.api{
+	width: 20%;
+	background-color: #F9EB13;
+}
+.suite{
+	width: 40%;
+	background-color: #6E4D91;
+}
+.git{
+	width: 30%;
+	background-color: black;
+}
