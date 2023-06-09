@@ -87,7 +87,10 @@
 
     /*experience*/
     .experience{
-        margin-bottom: 300px;
+        margin-bottom: 200px;
+    }
+    .experience h3{
+        font-size:35px;
     }
     .job-title , .job-content h4{
         font-size: 16px;
@@ -106,4 +109,37 @@
      .project{
         width: 75%;
      }
+     .projects h3{
+        font-size:35px;
+     }
+
+     /*contact*/
+     .circle{
+        height:100px;
+        width:100px;
+     }
+     .phone span{
+        display:none!important;
+    }
+    .circle svg{
+        display: block!important;
+    }
+}
+@media screen and (max-width:479px){
+    .experience h3{
+        font-size:25px;
+    }
+    .job-title , .job-content h4{
+        font-size: 10px;
+    }
+    .job-content p{
+        font-size: 8px;
+    }
+
+    .projects h3{
+        font-size:25px;
+    }
+    .projects{
+        margin-top: 200px;
+    }
 }
