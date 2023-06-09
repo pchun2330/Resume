@@ -1,0 +1,109 @@
+@media screen and (max-width:1100px) {
+    .nav-right{
+        margin-right:0px;
+        margin-top: 8px;
+    }
+    .nav-right a{
+        font-size: 15px;
+    }
+    .navbar-home a{
+        left:10%;
+        font-size: 30px;
+    }
+    .bg{
+        overflow: hidden;
+    }
+    #top{
+        width:60px;
+	    height: 60px;
+        font-size: 10px;
+        overflow: hidden;
+    }
+    
+    /*about me*/
+    .basic {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding-bottom: 100px;
+    }
+    
+    .data {
+        width: 100%;
+        margin-left: 0;
+        margin-top: -15%;
+        padding-top: 0;
+    }
+    .data h2{
+        width: 100%;
+    }
+
+    .basic .image {
+        float: none;
+        width: 70%;
+    }
+    .basic .image img{
+        max-width: 70%;
+        clip-path: circle(40% at 50% 35%);
+        
+    }
+    .basic .loader {
+        display:none;
+    }
+
+    /*skill*/
+    .skill{
+        margin-top: -30%;
+    }
+
+    /*experience*/
+    .experience{
+        margin-bottom: 100px;
+    }
+    
+    .job-title , .job-content h4{
+        font-size: 15px;
+    }
+    .job-content p{
+        font-size: 13px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .navbar{
+        overflow: hidden;
+    }
+    .nav-right a{
+        display: none;
+    }
+    .navbar-home{
+        left:50%;
+    }
+
+    /*skill*/
+    .skill{
+        margin-top: -40%;
+    }
+
+    /*experience*/
+    .experience{
+        margin-bottom: 300px;
+    }
+    .job-title , .job-content h4{
+        font-size: 16px;
+    }
+    .job-content p{
+        font-size: 13px;
+    }
+
+     /*work*/
+     .work{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+     }
+     .project{
+        width: 75%;
+     }
+}

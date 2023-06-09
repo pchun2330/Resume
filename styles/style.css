@@ -6,7 +6,6 @@ body,html{
 	height:100%;
 	font-family: "Pixeboy", Verdana, sans-serif;
 	margin:0;
-
 }
 body a{
 	text-decoration: none;
@@ -16,13 +15,14 @@ body a{
 	position: fixed;
 	overflow: hidden;
 	width:100%;
+	height:10%;
 	top:0;
 	left:0;
 	z-index: 2;
 	background-color: rgba(0, 0, 0, 0.7);
 }
 .navbar a{
-	display:inline-block;
+	float: left;
 	text-align: center;
 	padding:10px;
 	color:#88BBD6;
@@ -34,7 +34,7 @@ body a{
 	float: none;
 	position: absolute;
 	top:50%;
-	left:20%;
+	left:10%;
 	transform: translate(-50%,-50%);
 }
 .navbar-home a{
@@ -61,14 +61,13 @@ body a{
 	color:#90CAE6;
 }
 .bg{
-	background-image: url("images/self_background.jpg");
+	background-image: url("../images/self_background.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	filter: brightness(0.5);
-	height:98%;
+	height:100%;
 	clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 90%, 0 0);
-	
 	z-index: 1;
 }
 section{
@@ -79,12 +78,12 @@ section{
 	position: relative;
 	top:-6%;
 }
-#aboutme,.skill,.experience,.project,.contact{
+#aboutme,.skill,.experience,.projects,.contact{
 	font-size: 50px;
 	letter-spacing: 5px;
 	font-family:  Verdana, sans-serif;
 }
-#aboutme a,.skill h3,.experience h3,.project h3,.contact h3{
+#aboutme a,.skill h3,.experience h3,.projects h3,.contact h3{
 	color:#88789A;
 }
 

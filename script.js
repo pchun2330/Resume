@@ -1,13 +1,15 @@
 function moveLoader() {
     const loader = document.querySelector('.loader');
-    loader.style.bottom = '0px';
-    loader.style.left = 'calc(20px)';
+    loader.style.bottom = '30%';
+    loader.style.left = '85%';
+    loader.style.borderColor = 'rgba(136, 120, 154, 0.3)';
 }
 
 function resetLoader() {
     const loader = document.querySelector('.loader');
-    loader.style.bottom = '20%';
-    loader.style.left = '80%';
+    loader.style.bottom = '10%';
+    loader.style.left = '10%';
+    loader.style.borderColor = 'rgba(136, 120, 154, 1)';
 }
   
 
