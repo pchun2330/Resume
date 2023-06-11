@@ -80,6 +80,12 @@
         left:50%;
     }
 
+    .data h2{
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+
     /*skill*/
     .skill{
         margin-top: -40%;
@@ -89,14 +95,39 @@
     .experience{
         margin-bottom: 200px;
     }
-    .experience h3{
-        font-size:35px;
-    }
     .job-title , .job-content h4{
         font-size: 16px;
+        text-align: center;
+        margin:0 auto;
+    }
+    .job-title h4{
+        width:100%;
+        font-size: 15px;
+    }
+    .job-content{
+        margin:0 auto;
+        width: 90%;
+    }
+    .job-content h6{
+        margin-top: 5px;
+        text-align: center;
     }
     .job-content p{
         font-size: 13px;
+    }
+    .job1,.job2,.job3{
+        display:block;
+        margin:0 auto;
+        margin-bottom: 40px;
+        width:90%;
+        text-align: center;
+    }
+    .timebox:hover{
+        .job1 , .job2 ,.job3{
+            transform: translateX(0%) scale(1.05);
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
+            transition: transform 2s, box-shadow 2s;
+        }
     }
 
      /*work*/

@@ -16,14 +16,13 @@
 	color: #88789A;
 	padding: 20px;
 	text-align: justify;
-	text-indent: 50px;
 	margin-left:30px;
 	width:60%;
 	float: left;
 }
 .data p{
 	z-index: 1;
-	
+	text-indent: 50px;
 }
 .data h2{
 	text-align: center;
