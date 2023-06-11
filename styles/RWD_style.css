@@ -80,6 +80,9 @@
         left:50%;
     }
 
+    #aboutme a{
+        font-size: 35px;
+    }
     .data h2{
         width: 100%;
         font-size: 20px;
