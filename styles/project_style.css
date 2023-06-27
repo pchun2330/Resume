@@ -86,20 +86,24 @@
 	align-items: center;
 	text-align: center;
 }
-.flip-card-back {
+.flip-card-back{
 	color: white;
 	transform: rotateY(180deg);
 	border-radius: 10px;
 }
-.project:hover .flip-card-inner,.project:hover .flip-card-inner{
+.project:hover .rotatex{
+	transform: rotateX(180deg);
+}
+
+
+.rotateback{
+	transform: rotateX(180deg);
+}
+.project:hover .rotatey{
 	transform: rotateY(180deg);
 }
-.project:hover .flip-card-inner{
-	transform: rotateX(180deg);
-}
-.project .flip-card-back {
-	transform: rotateX(180deg);
-}
+
+
 .flip-card-back a {
 	color: white;
 }
@@ -169,3 +173,15 @@
 .card6-back{
 	background-color: rgba(0, 0, 0, 0.7);
 }
+
+.card7{
+	border:5px solid rgba(244, 195, 43, 0.7);
+	color:#5C5540;
+}
+.card7 h3{
+	color:#5C5540;
+}
+.card7-back{
+	background-color: rgba(244, 195, 43, 0.7);
+}
+
