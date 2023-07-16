@@ -195,3 +195,15 @@
 .card8-back{
 	background-color: rgba(179, 229, 100, 0.7);
 }
+
+.card9{
+	border:5px solid rgba(27, 123, 220, 0.7);
+	color:#57A3EF;
+}
+.card9 h3{
+	color:#57A3EF;
+}
+.card9-back{
+	background-color: rgba(27, 123, 220, 0.7);
+}
+
